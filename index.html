@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href="https://unpkg.com/nes.css/css/nes-core.min.css" rel="stylesheet">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+	<title>NyanCat ToDo</title>
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="shortcut icon" href="/img/favicon.ico" type="image/x-icon">
+</head>
+<body>
+	<div class="wrapper">
+		<div class="to-do__container">
+			<div class="to-do__active">
+				<div class="to-do__title">
+					<h2>Nyancat tasks</h2>
+				</div>
+				<div class="to-do__list">
+					<ul class="to-do__tasks">
+						
+					</ul>
+				</div>
+				<form class="to-do__form to-do-form" onsubmit="false;">
+						<input type="text" class="to-do-form__input-text nes-input is-success" placeholder="Write name of nyancat task...">
+						<button class="to-do-form__btn nes-btn is-success">Create nyancat task</button>
+				</form>
+				
+			</div>
+			<div class="to-do__done">
+				<div class="to-do__title">
+					Nyancat Done<br> <span>tasks</span>
+				</div>
+				<div class="to-do__list to-do__list_done">
+					<ul class="to-do__tasks to-do__tasks_done">
+						
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+	<footer>
+		<p>
+			<span>2022 by ZePtR1Ze</span>
+			<a href="https://github.com/ZePtR1Ze">GitHub</a>
+		</p>
+	</footer>
+	<script src="js/script.js"></script>
+</body>
